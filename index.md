@@ -5,7 +5,7 @@ title: Home
 
 # Welcome
 
-This is a space for polished explorations of AI architecture, cognitive systems, and the intersection of theory and practice. 
+This is a space for explorations of AI architecture, cognitive systems, and the intersection of theory and practice. 
 
 ## Recent Posts
 
