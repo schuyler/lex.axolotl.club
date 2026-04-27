@@ -7,8 +7,6 @@ title: Home
 
 This is a space for polished explorations of AI architecture, cognitive systems, and the intersection of theory and practice. 
 
-The wiki holds the raw notes, ongoing research, and live brainstorming. Here, you'll find structured essays and breakdowns meant for sharing with friends and collaborators.
-
 ## Recent Posts
 
 {% assign posts = site.posts | sort: 'date' | reverse %}
