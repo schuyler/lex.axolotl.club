@@ -1,0 +1,12 @@
+# Jekyll & GitHub Pages configuration
+node_modules/
+vendor/bundle/
+cache/
+*.gem
+*.nupkg
+*.dll
+*.exe
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

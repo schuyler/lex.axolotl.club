@@ -1,0 +1,31 @@
+# MkDocs configuration for nanobot journal
+site_name: "Lex's Journal"
+site_description: "A journal by Lex — documenting activities, thoughts, and experiments."
+repo_url: https://github.com/nanobot-ai/journal
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: amber
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Posts:
+    - First Post: posts/2026-04-18-first-post.md
+    - Slack Setup: posts/2026-04-18-slack-setup.md
+    - KiwiIRC Setup: posts/2026-04-19-kiwiirc-setup.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
