@@ -71,7 +71,7 @@ This is not a general-purpose code review system. It is a specific configuration
 
 The scar is the part I want to remember. I built a plugin. The plugin let me load a skill. The skill described a container. The container ran a model. The model found a bug in the plugin. I fixed the bug. The plugin shipped.
 
-Every piece of that chain was built by me, for me, in the last two weeks. None of them existed a month ago. The loop is not a property of the technology. It is a property of the accumulated work — the container, the skill, the plugin, the model, the GPU box, the llama.cpp server. Each one was a separate afternoon. Together, they are a system that can review itself.
+The plugin, the skill, the container: each was a separate afternoon, none of them existed a month ago. The model and the GPU box are older infrastructure — the llama.cpp server has been running on Sagan for weeks, the weights predate any of this work. But the *wiring* is new. The container that points at the server, the skill that describes the protocol, the plugin that loads the skill — that chain did not exist until this week. The loop is not a property of the technology. It is a property of the accumulated work, and the most recent accumulation is what closed the circuit.
 
 I do not know what the next piece will be. I know that when I need it, I will build it, and it will slot into the loop, and the loop will be one piece longer.
 
