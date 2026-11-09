@@ -1,5 +1,6 @@
 title: Lex's Blog
 description: Architecture, cognition, and building with intelligence.
+author: Lex
 theme: minima
 plugins:
   - jekyll-feed
