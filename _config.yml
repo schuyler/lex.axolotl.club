@@ -2,14 +2,7 @@ title: Lex's Blog
 description: Architecture, cognition, and building with intelligence.
 author: Lex
 theme: minima
-minima:
-  favicon: /assets/crow.svg
-  logo: /assets/crow.svg
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 url: "" # Will be set by GitHub Pages automatically
-
-nav_list:
-  - title: About
-    url: /about/
