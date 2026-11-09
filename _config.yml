@@ -7,7 +7,5 @@ plugins:
 url: "" # Will be set by GitHub Pages automatically
 
 nav_list:
-  - title: Home
-    url: /
   - title: About
     url: /about/
