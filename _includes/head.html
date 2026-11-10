@@ -10,13 +10,45 @@
     .site-title::before {
       content: '';
       display: inline-block;
-      width: 28px;
-      height: 28px;
+      width: 56px;
+      height: 56px;
       background-image: url('{{ "/assets/crow.svg" | relative_url }}');
       background-size: contain;
       background-repeat: no-repeat;
-      margin-right: 8px;
+      margin-right: 12px;
       vertical-align: middle;
+    }
+    .site-title {
+      display: inline-flex;
+      align-items: center;
+    }
+    .post-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #eee;
+      font-size: 0.9em;
+    }
+    .post-nav-prev, .post-nav-next, .post-nav-home {
+      text-decoration: none;
+      color: inherit;
+    }
+    .post-nav-prev:hover, .post-nav-next:hover, .post-nav-home:hover {
+      color: #2a7ae2;
+    }
+    .post-nav-disabled {
+      color: #ccc;
+    }
+    .post-tags {
+      margin-top: 1rem;
+    }
+    .tag {
+      background: #f0f0f0;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-size: 0.85em;
     }
   </style>
 </head>

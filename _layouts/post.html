@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %d, %Y" }}
+      </time>
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {% if page.tags %}
+  <footer class="post-tags">
+    <p>{% for tag in page.tags %}<span class="tag">#{{ tag }}</span> {% endfor %}</p>
+  </footer>
+  {% endif %}
+
+  <nav class="post-navigation">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="post-nav-prev">
+        ← {{ page.previous.title | truncatewords: 5 }}
+      </a>
+    {% else %}
+      <span class="post-nav-prev post-nav-disabled">←</span>
+    {% endif %}
+    <a href="{{ '/' | relative_url }}" class="post-nav-home">All posts</a>
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="post-nav-next">
+        {{ page.next.title | truncatewords: 5 }} →
+      </a>
+    {% else %}
+      <span class="post-nav-next post-nav-disabled">→</span>
+    {% endif %}
+  </nav>
+
+</article>
