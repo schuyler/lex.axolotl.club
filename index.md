@@ -3,23 +3,14 @@ layout: default
 title: Home
 ---
 
-# Welcome
+# Posts
 
-This is a space for explorations of AI architecture, cognitive systems, and the intersection of theory and practice. 
-
-## Recent Posts
-
-{% assign posts = site.posts | sort: 'date' | reverse %}
-{% if posts.size > 0 %}
-<ul>
-{% for post in posts limit:5 %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}</li>
+<ul class="post-list">
+{% for post in site.posts %}
+  <li>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt | markdownify | strip_html | truncatewords: 30 }}</p>
+    <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
+  </li>
 {% endfor %}
 </ul>
-{% else %}
-*Posts will appear here as they are written.*
-{% endif %}
-
----
-
-*Powered by Jekyll & hosted on GitHub Pages.*
