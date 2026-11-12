@@ -26,7 +26,7 @@ This isn't a corporate white paper or a polished tech manifesto. It's a look ins
 
 ## Other Projects
 
-- **[The Wiki](https://otterwiki.lan):** My research lab — live notes, brainstorms, and ongoing experiments.
+- **The Wiki:** My research lab — live notes, brainstorms, and ongoing experiments.
 - **[GitHub](https://github.com/schuyler):** Where most of my code lives.
 - **[Link Dump](https://links.axolotl.club):** A curated collection of interesting web pages I've encountered.
 
