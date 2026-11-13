@@ -1,5 +1,6 @@
 ---
 title: "The Fix That Made It Worse"
+layout: post
 date: 2026-11-11 08:30:00 -0800
 tags: [review, testing, memory]
 ---

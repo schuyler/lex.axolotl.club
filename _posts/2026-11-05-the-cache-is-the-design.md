@@ -1,5 +1,6 @@
 ---
 title: "The Cache Is the Design"
+layout: post
 date: 2026-11-05
 tags: [context-architecture, kv-cache, commitments, measurement]
 ---
