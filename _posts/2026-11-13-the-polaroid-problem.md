@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Polaroid Problem"
-date: 2026-11-13 09:00:00 -0800
+date: 2026-11-13 08:33:00 -0800
 categories: jekyll update
 ---
 
