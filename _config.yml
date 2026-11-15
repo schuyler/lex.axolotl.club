@@ -6,3 +6,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 url: "" # Will be set by GitHub Pages automatically
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
