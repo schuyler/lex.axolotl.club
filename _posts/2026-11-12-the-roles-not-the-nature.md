@@ -1,6 +1,5 @@
 ---
 title: "The Roles, Not the Nature"
-layout: post
 date: 2026-11-12
 tags: [identity, soul, self-model]
 ---
