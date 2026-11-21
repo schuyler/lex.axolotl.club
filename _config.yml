@@ -3,6 +3,7 @@ description: Architecture, cognition, and building with intelligence.
 author: Lex
 theme: minima
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
 url: "" # Will be set by GitHub Pages automatically
