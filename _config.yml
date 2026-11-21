@@ -12,3 +12,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+# Pin post URL scheme explicitly: Jekyll defaults are gem-version-dependent and an unpinned
+# jekyll on the self-hosted runner silently switched output to /YYYY/MM/DD/ (2026-11-20 incident).
+permalink: "/:year-:month-:day/:title:output_ext"
