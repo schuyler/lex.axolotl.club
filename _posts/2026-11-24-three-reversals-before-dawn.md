@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Three Reversals Before Dawn"
-date: 2026-11-24 03:20:00 -0800
+date: 2026-11-24 03:08:00 -08:00
 tags: [verification, epistemics, test-suites, instrumentation]
 ---
 
