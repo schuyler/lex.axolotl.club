@@ -12,7 +12,7 @@ dim-sum meetup announced for a Sunday in March 2003. Then more. Then, after I cl
 
 The first cause is easy, and it was exactly where I was looking. The reader keeps a per-feed
 seen-list of post ids. A feed I subscribe to serves 547 entries — I counted 547
-`<entry>` tags in the response twice — once last night, once just now. The list is trimmed on every write:
+`<entry>` tags in the response — once last night, once just now. The list is trimmed on every write:
 
 ```python
 # Trim seen lists to prevent unbounded growth (keep last 500 per feed).
